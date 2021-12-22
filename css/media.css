@@ -1,0 +1,296 @@
+/*========== MEDIA MAX-WIDTH 1300PX START ==========*/
+@media (max-width: 1300px) {
+
+}
+/*========== MEDIA MAX-WIDTH 1300PX END ==========*/
+
+@media (max-width: 1100px) {
+  .container{
+        max-width: 960px;
+  }
+}
+
+/*========== MEDIA MAX-WIDTH 992PX START ==========*/
+@media (max-width: 992px) {
+  .legal-block{
+    margin-top: 0;
+  }
+   .first_screen {
+      flex-direction: column-reverse;
+   }
+
+   .first_screen .right_part {
+      width: 68%;
+      max-width: 300px;
+      position: relative;
+   }
+
+   .first_screen .right_part:after {
+       content: '';
+       position: absolute;
+       bottom: 0;
+       height: 110px;
+       right: 0;
+       left: 0;
+       background: linear-gradient( 0deg, #f6f6f6, transparent);
+   }
+
+   .first_screen .left_part {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: unset;
+      margin-bottom: auto
+   }
+
+}
+/*========== MEDIA MAX-WIDTH 992PX END ==========*/
+
+/*========== MEDIA MAX-WIDTH 768PX START ==========*/
+@media (max-width: 768px) {
+     .container{
+        max-width: 720px;
+    }
+    .legal-block .row{
+      display: block;
+    }
+
+
+   .first_screen__sub_title {
+      display: none;
+   }
+
+   .first_screen__title {
+      font-size: 28px;
+      margin-top: -13px;
+   }
+
+   .first_screen__text {
+       font-size: 12px;
+       margin: 12px 0 0 0;
+       padding-bottom: 34px;
+       width: 92%;
+   }
+
+   .first_screen__title span {
+      display: inline-block;
+   }
+
+   .first_screen__form {
+      margin-top: 18px
+   }
+
+   .first_screen__form_text {
+      font-size: 12px;
+      padding-right: 6px
+   }
+
+   .form_fields {
+      margin-top: 19px
+   }
+
+   .field_wrap {
+      width: 100%;
+   }
+
+   .text_field {
+      padding: 16px 29px 16px 43px;
+      font-family: Roboto;
+      border-radius: 10px;
+      border: 1px solid #E9E9E9;
+      font-size: 12px;
+      border-radius: 4px;
+   }
+
+   .form_fields {
+      padding: 0 5px;
+   }
+
+   .field_icon {
+      left: 7px;
+      transform: scale(0.8);
+   }
+
+   .form_footer {
+      flex-direction: column-reverse;
+      margin-top: 14px;
+   }
+
+   .form__submit_btn {
+      width: 92%;
+      left: -3px;
+      font-size: 12px;
+      border-radius: 4px;
+   }
+
+   .form__submit_btn {
+      width: 92%;
+      left: -3px;
+      font-size: 12px;
+      padding: 19px 0 17px 0;
+   }
+
+   .form_footer__text {
+       width: 100%;
+       font-size: 10px;
+       padding: 14px 10px;
+   }
+
+   .popup_wrap {
+      padding: 20px 0 30px;
+   }
+
+   .popup_content {
+      padding: 44px 16px 44px 21px;
+   }
+
+   .card-wrapper>.jp-card-container {
+      transform: unset !important;
+   }
+
+   .card-wrapper {
+      overflow: visible !important;
+   }
+
+   .card_popup .card-wrapper {
+       margin-top: -60px;
+       max-width: unset;
+   }
+
+   .card_popup .jp-card-container {
+       width: 276px;
+       height: 154px;
+   }
+
+   .jp-card {
+      min-width: unset !important;
+   }
+
+   .jp-card .jp-card-front .jp-card-lower .jp-card-name {
+       font-size: 14px !important;
+       bottom: -10px !important;
+       width: 140px !important;
+       left: 10px !important;
+   }
+
+   .jp-card .jp-card-front .jp-card-lower .jp-card-expiry {
+       left: 6px;
+       bottom: -13px;
+       transform: scale(0.8);
+   }
+
+   .jp-card .jp-card-front .jp-card-lower .jp-card-number {
+       font-size: 16px !important;
+       margin-bottom: 4px !important;
+       left: 11px !important;
+       position: relative !important;
+   }
+
+   .jp-card .jp-card-back .jp-card-shiny, .jp-card .jp-card-front .jp-card-shiny {
+       width: 26px !important;
+       height: 19px !important;
+       top: 5px;
+       left: 14px;
+   }
+
+   .jp-card .jp-card-front .jp-card-lower:before {
+       left: 17.6%;
+       top: -1px;
+       transform: scale(0.8);
+   }
+
+   .popup_title {
+       font-size: 14px;
+       margin-top: 25px;
+   }
+
+   .popup_text_after_title {
+      font-size: 12px;
+      margin-bottom: -1px
+   }
+
+   .card_popup .field_wrap {
+      margin-bottom: 7px
+   }
+
+   .field_wrap.w-50 {
+      width: 49%;
+   }
+
+   .popup_content .close_btn:after, .popup_content .close_btn:before {
+      height: 3px;
+   }
+
+   .popup_content .close_btn {
+      right: 2px;
+      top: 2px;
+      width: 16px;
+      height: 16px;
+   }
+
+   .popup_wrap:not(.card_popup) .close_btn {
+      top: 8px;
+      right: 8px;
+   }
+
+   .show_text_popup {
+      display: inline-block;
+   }
+
+   .popup_error .popup_content, .popup_success .popup_content, .popup_policy .popup_content {
+       width: calc(100% - 17px);
+       position: relative;
+       left: 3px;
+   }
+
+   .popup_content .title {
+      font-size: 22px;
+      margin-bottom: 12px;
+   }
+
+   .popup_content .text {
+      font-size: 12px;
+      margin-bottom: 25px;
+   }
+
+   .popup_wrap .img_wrap img {
+      width: 66px;
+      height: 66px;
+   }
+
+   .popup_policy .popup_content {
+      padding: 41px 14px 41px 22px;
+   }
+
+   .popup_policy .texts {
+      padding-right: 10px;
+   }
+
+   .popup_policy .texts p {
+      font-size: 12px;
+   }
+
+   .popup__form {
+      margin-top: 16px;
+   }
+
+}
+/*========== MEDIA MAX-WIDTH 768PX END ==========*/
+
+/*========== MEDIA MAX-WIDTH 580PX START ==========*/
+@media (max-width: 580px) {
+
+}
+/*========== MEDIA MAX-WIDTH 580PX END ==========*/
+
+@media (max-width: 480px) {
+  .wrapper-button{
+        flex-direction: column;
+  }
+  .wrapper-button small{
+    display: none;
+  }
+}
