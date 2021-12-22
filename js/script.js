@@ -745,9 +745,10 @@ $('.term_open').on('click',function(e){
     $('.term_popup').fadeIn();
 })
 
-// $('.form__submit_btn').on('click', function(e){
-//     e.preventDefault();
-//     $('.card_popup').show();
+$('.per_sum').on('click', function(e){
+    e.preventDefault();
+    console.log('sdsasad');
+ //   $('.card_popup').show();
     
-// })
+})
 

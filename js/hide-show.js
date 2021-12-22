@@ -516,19 +516,19 @@ $(document).ready(function () {
     $(".section_headline").addClass("v3");
     create();
   });
-  $(".per_sum").click(function (e) {
-    var dataMail = document.getElementById('dataMail').dataset.mail;
-    document.location.href = "pay?email=".concat(dataMail); // var true_for_you_text = $(e.target).text();
-    // $('.keto-quiz-true-for-you').val(true_for_you_text);
-    // $("#final").show();
-    //  $("#personal_note").hide();
-    //  $("body").addClass("body");
-    //  $("body").removeClass("body-personal-summary");
-    // $("#personal_summary").hide();
-    // $(".section_headline").show();
-    //  $(".section_headline").removeClass("headline-v2");
-    //   $(".section_headline").removeClass("v3");
-  });
+  // $(".per_sum").click(function (e) {
+  //   var dataMail = document.getElementById('dataMail').dataset.mail;
+  //   document.location.href = "pay?email=".concat(dataMail); // var true_for_you_text = $(e.target).text();
+  //   // $('.keto-quiz-true-for-you').val(true_for_you_text);
+  //   // $("#final").show();
+  //   //  $("#personal_note").hide();
+  //   //  $("body").addClass("body");
+  //   //  $("body").removeClass("body-personal-summary");
+  //   // $("#personal_summary").hide();
+  //   // $(".section_headline").show();
+  //   //  $(".section_headline").removeClass("headline-v2");
+  //   //   $(".section_headline").removeClass("v3");
+  // });
   $(".next-btn-final").click(function () {
     $("#final").show();
     $("#measurements_1").hide();

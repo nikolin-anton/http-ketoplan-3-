@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="css/kbp2.webflow.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/kbp-quiz-3.webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheet(1).css" />
+    <link rel="stylesheet" type="text/css" href="css/style_form.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <link rel="stylesheet" type="text/css" href="css/card.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <meta name="format-detection" content="telephone=no"><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
